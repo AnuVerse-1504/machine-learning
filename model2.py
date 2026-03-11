@@ -1,4 +1,3 @@
-# Machine-learning
 import numpy as np
 import matplotlib.pyplot as plt 
 from sklearn.linear_model import LinearRegression
@@ -20,15 +19,3 @@ plt.xlabel("x")
 ply.ylabel("y")
 plt.legend()
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
