@@ -10,12 +10,12 @@ model.fit(x,y)
 
 y_pred=model.predict(x)
 
-print("Slope(m):"model.coef_)
+print("Slope(m):",model.coef_)
 print("intercept(c):",model.intercept_)
 
 plt.scatter(x,y,color='blue',label='Actual Data')
 plt.plot(x,y_pred,color='red',label='Regression Line')
 plt.xlabel("x")
-ply.ylabel("y")
+plt.ylabel("y")
 plt.legend()
 plt.show()
