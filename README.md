@@ -1,29 +1,24 @@
 # Machine-learning
-import numpy as np
-import matplotlib.pyplot as plt 
-from sklearn.linear_model import LinearRegression
-x=np.array([1,2,3,4,5]).reshape(-1,1)
-y=np.array([2,4,6,8,10])
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that enables computers to learn from data and improve performance without being explicitly programmed.
+Main Types of Machine Learning
+1️⃣ Supervised Learning
+2️⃣ Unsupervised Learning
+3️⃣ Reinforcement Learning
 
-model=LinearRegression()
+🔄 How Machine Learning Works (Basic Steps)
+-Collect data
+-Clean and prepare data
+-Choose a model
+-Train the model
+-Test and evaluate
+-Deploy
 
-model.fit(x,y)
-
-y_pred=model.predict(x)
-
-print("Slope(m):"model.coef_)
-print("intercept(c):",model.intercept_)
-
-plt.scatter(x,y,color='blue',label='Actual Data')
-plt.plot(x,y_pred,color='red',label='Regression Line')
-plt.xlabel("x")
-ply.ylabel("y")
-plt.legend()
-plt.show()
-
-
-
-
+🌍 Real-World Applications
+Netflix movie recommendations
+Face recognition
+Voice assistants (Siri, Alexa)
+Stock market prediction
+Medical image analysis
 
 
 
